@@ -1,0 +1,20 @@
+h2, h3, h4, h5 {
+  color: cyan;
+  font-family: sans-serif;
+}
+
+table th{
+  font-weight: bold;
+  color: darkorange;
+  border:2px solid darkblue;
+}
+
+table {
+  border: 5px double darkblue;
+}
+
+table td {
+  color: darkblue;
+  border: 1px solid darkorange;
+
+}
