@@ -17,6 +17,7 @@ table th{
 
 table {
   border: 5px double darkblue;
+  text-align: center;
 }
 
 table td {
@@ -36,4 +37,19 @@ a:hover{
 blockquote {
   color: orange;
   background: darkblue;
+}
+
+#teamRoster li img{
+  opacity: 0.2;
+  margin: -105px 0;
+  height: 115px;
+  position: relative;
+  z-index: -1;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+#teamRoster ol:first-child{
+  font-weight: bold;
 }
