@@ -3,6 +3,12 @@ h2, h3, h4, h5 {
   font-family: sans-serif;
 }
 
+thead{
+  font-weight: bold;
+  color: darkorange;
+  border:2px solid darkblue;
+}
+
 table th{
   font-weight: bold;
   color: darkorange;
@@ -15,6 +21,19 @@ table {
 
 table td {
   color: darkblue;
-  border: 1px solid darkorange;
+  border: 2px solid darkorange;
+}
 
+ul, ol {
+  list-style-type: square;
+}
+
+a:hover{
+  background-color: red;
+  text-decoration: none;
+}
+
+blockquote {
+  color: orange;
+  background: darkblue;
 }
